@@ -175,10 +175,28 @@ code {
   border-left: 2px solid var(--ifm-color-primary);
 }
 
-/* Footer styling */
+/* Footer styling with beaver background */
 .footer {
-  background: linear-gradient(135deg, #0d47a1 0%, #1976d2 100%);
+  position: relative;
+  background-image: url('/img/beavers-breakroom.png');
+  background-size: cover;
+  background-position: center 35%;
+  background-repeat: no-repeat;
+  border-top: 1px solid rgba(25, 118, 210, 0.2);
   padding: 3rem 0;
+}
+
+.footer::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(13, 71, 161, 0.85), rgba(25, 118, 210, 0.9));
+  z-index: 0;
+}
+
+.footer > * {
+  position: relative;
+  z-index: 1;
 }
 
 .footer__title {
@@ -194,6 +212,12 @@ code {
 .footer__link-item:hover {
   color: #ffffff;
   text-decoration: none;
+}
+
+@media (max-width: 996px) {
+  .footer {
+    background-position: center 30%;
+  }
 }
 
 /* Search bar polish */
