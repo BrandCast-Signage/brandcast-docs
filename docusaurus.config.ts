@@ -67,7 +67,7 @@ const config: Config = {
       tagName: 'meta',
       attributes: {
         name: 'twitter:image',
-        content: 'https://docs.brandcast.app/img/brandcast-social-card.jpg',
+        content: 'https://docs.brandcast.app/img/brandcast-OG.png',
       },
     },
     {
@@ -95,7 +95,7 @@ const config: Config = {
       tagName: 'meta',
       attributes: {
         property: 'og:image',
-        content: 'https://docs.brandcast.app/img/brandcast-social-card.jpg',
+        content: 'https://docs.brandcast.app/img/brandcast-OG.png',
       },
     },
     {
@@ -157,7 +157,7 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'img/brandcast-social-card.jpg',
+    image: 'img/brandcast-OG.png',
     colorMode: {
       respectPrefersColorScheme: true,
     },
