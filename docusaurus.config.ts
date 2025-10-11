@@ -11,7 +11,7 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://help.brandcast.app',
+  url: 'https://docs.brandcast.app',
   baseUrl: '/',
 
   organizationName: 'BrandCast-Signage',
@@ -25,6 +25,115 @@ const config: Config = {
     locales: ['en'],
   },
 
+  // SEO Metadata, Structured Data, and Canonical URL
+  headTags: [
+    // Meta tags
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'keywords',
+        content: 'digital signage, BrandCast, help, documentation, retail displays, content management',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'description',
+        content: 'Complete documentation for BrandCast digital signage platform',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'twitter:card',
+        content: 'summary_large_image',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'twitter:title',
+        content: 'BrandCast Help Center',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'twitter:description',
+        content: 'Digital signage documentation for retail teams',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'twitter:image',
+        content: 'https://docs.brandcast.app/img/brandcast-social-card.jpg',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        property: 'og:type',
+        content: 'website',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        property: 'og:title',
+        content: 'BrandCast Documentation',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        property: 'og:description',
+        content: 'Complete documentation for BrandCast digital signage platform',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        property: 'og:image',
+        content: 'https://docs.brandcast.app/img/brandcast-social-card.jpg',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        property: 'og:url',
+        content: 'https://docs.brandcast.app',
+      },
+    },
+    // Canonical URL
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'canonical',
+        href: 'https://docs.brandcast.app',
+      },
+    },
+    // Structured data
+    {
+      tagName: 'script',
+      attributes: {
+        type: 'application/ld+json',
+      },
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        name: 'BrandCast Help Center',
+        url: 'https://docs.brandcast.app',
+        publisher: {
+          '@type': 'Organization',
+          name: 'BrandCast',
+          logo: 'https://docs.brandcast.app/img/logo.png',
+        },
+        description: 'Professional digital signage documentation for retail teams',
+      }),
+    },
+  ],
+
   presets: [
     [
       'classic',
@@ -36,6 +145,12 @@ const config: Config = {
         blog: false, // Disable blog
         theme: {
           customCss: './src/css/custom.css',
+        },
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
         },
       } satisfies Preset.Options,
     ],

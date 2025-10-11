@@ -1,30 +1,229 @@
 /**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
+ * BrandCast Documentation - Custom Styles
+ * Professional digital signage documentation with brand identity
  */
 
-/* You can override the default Infima variables here. */
+/* Import Brand Font - Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* ====================
+   Brand Colors - BrandCast Blue (#1976d2)
+   ==================== */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  /* Primary brand color - BrandCast Blue */
+  --ifm-color-primary: #1976d2;
+  --ifm-color-primary-dark: #1565c0;
+  --ifm-color-primary-darker: #0d47a1;
+  --ifm-color-primary-darkest: #0a3d91;
+  --ifm-color-primary-light: #42a5f5;
+  --ifm-color-primary-lighter: #64b5f6;
+  --ifm-color-primary-lightest: #90caf9;
+
+  /* Brand-specific overrides */
+  --ifm-navbar-background-color: #1976d2;
+  --ifm-navbar-link-color: #ffffff;
+  --ifm-navbar-link-hover-color: #90caf9;
+  --ifm-link-color: #1976d2;
+  --ifm-link-hover-color: #0d47a1;
+  --ifm-heading-font-weight: 700;
+  --ifm-font-weight-bold: 700;
+
+  /* Typography - Match blog (Inter) */
+  --ifm-font-family-base: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  --ifm-heading-font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+
+  /* Spacing and layout */
+  --ifm-spacing-horizontal: 1.5rem;
+  --ifm-navbar-height: 60px;
+
+  /* Code blocks */
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --docusaurus-highlighted-code-line-bg: rgba(25, 118, 210, 0.1);
+
+  /* Cards and surfaces */
+  --ifm-card-border-radius: 8px;
+  --ifm-global-radius: 8px;
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* Dark mode theming */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-primary: #90caf9;
+  --ifm-color-primary-dark: #64b5f6;
+  --ifm-color-primary-darker: #42a5f5;
+  --ifm-color-primary-darkest: #1976d2;
+  --ifm-color-primary-light: #bbdefb;
+  --ifm-color-primary-lighter: #e3f2fd;
+  --ifm-color-primary-lightest: #f5f5f5;
+
+  --ifm-background-color: #1a1a1a;
+  --ifm-background-surface-color: #242424;
+  --docusaurus-highlighted-code-line-bg: rgba(144, 202, 249, 0.1);
+}
+
+/* ====================
+   Visual Flourish
+   ==================== */
+
+/* Hero section on homepage */
+.hero {
+  background: linear-gradient(135deg, #1976d2 0%, #0d47a1 100%);
+  padding: 4rem 0;
+}
+
+.hero__title {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.hero__subtitle {
+  font-size: 1.5rem;
+  opacity: 0.9;
+}
+
+/* Enhanced navigation */
+.navbar {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.navbar__brand {
+  font-weight: 700;
+}
+
+.navbar__logo {
+  height: 32px;
+  margin-right: 0.5rem;
+}
+
+/* Sidebar polish */
+.menu {
+  font-weight: 500;
+}
+
+.menu__link {
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.menu__link:hover {
+  background: var(--ifm-menu-color-background-hover);
+  transform: translateX(2px);
+}
+
+.menu__link--active {
+  font-weight: 600;
+  border-left: 3px solid var(--ifm-color-primary);
+  background: var(--ifm-menu-color-background-active);
+}
+
+/* Enhanced cards */
+.card {
+  border-radius: var(--ifm-card-border-radius);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  transform: translateY(-2px);
+}
+
+/* Button enhancements */
+.button {
+  font-weight: 600;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.button--primary {
+  background: linear-gradient(135deg, #1976d2 0%, #1565c0 100%);
+}
+
+.button--primary:hover {
+  background: linear-gradient(135deg, #1565c0 0%, #0d47a1 100%);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Code block enhancements */
+pre {
+  border-radius: 8px;
+}
+
+code {
+  border-radius: 4px;
+  padding: 0.1rem 0.3rem;
+}
+
+/* Admonitions (info boxes) */
+.admonition {
+  border-radius: 8px;
+  border-left-width: 4px;
+}
+
+/* Table of contents */
+.table-of-contents {
+  font-size: 0.875rem;
+}
+
+.table-of-contents__link {
+  font-weight: 500;
+}
+
+.table-of-contents__link--active {
+  font-weight: 600;
+  color: var(--ifm-color-primary);
+  border-left: 2px solid var(--ifm-color-primary);
+}
+
+/* Footer styling */
+.footer {
+  background: linear-gradient(135deg, #0d47a1 0%, #1976d2 100%);
+  padding: 3rem 0;
+}
+
+.footer__title {
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.footer__link-item {
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 500;
+}
+
+.footer__link-item:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Search bar polish */
+.navbar__search-input {
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 996px) {
+  .hero__title {
+    font-size: 2rem;
+  }
+
+  .hero__subtitle {
+    font-size: 1.25rem;
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Print styles */
+@media print {
+  .navbar,
+  .footer,
+  .pagination-nav,
+  .tocCollapsible {
+    display: none !important;
+  }
 }
