@@ -445,7 +445,7 @@ For each missing content area:
 #### 3. File Name Issues
 
 **Invalid Characters:**
-- Avoid: !, @, #, $, %, ^, &, *, (, ), [, ], {, }, <, >, ?, /, \, |
+- Avoid: `! @ # $ % ^ & * ( ) [ ] { } < > ? / \ |`
 - Use only: Letters, numbers, hyphens (-), underscores (_)
 - Keep file names under 100 characters
 - No emojis or special Unicode characters

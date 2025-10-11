@@ -483,7 +483,7 @@ Access via **Display Settings** → **Metadata** tab
 
 **For Video Content:**
 - 25+ Mbps download
-- Low latency (<50ms)
+- Low latency (less than 50ms)
 - No bandwidth throttling
 
 ### Naming Conventions
