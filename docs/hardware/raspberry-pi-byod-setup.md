@@ -318,7 +318,7 @@ sudo raspi-config
 1. Add heatsink to CPU chip
 2. Use case with built-in fan
 3. Ensure adequate ventilation (don't enclose in tight space)
-4. Check temperature: `vcgencmd measure_temp` (should be <80°C)
+4. Check temperature: `vcgencmd measure_temp` (should be &lt;80°C)
 
 ### microSD Card Corruption
 

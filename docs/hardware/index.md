@@ -12,7 +12,7 @@ One of BrandCast's biggest advantages is **BYOD support**—you can use devices 
 - **[Apple iPads](./ipad-setup.md)** - Premium quality for customer-facing signage ($250+)
 - **[Android Tablets](./android-tablet-setup.md)** - Flexible options across price points ($100-400)
 - **[Raspberry Pi](./raspberry-pi-byod-setup.md)** - For customers who already own Pi hardware ($35+)
-- **[Computers](./computer-setup.md)** - Windows, Mac, or Linux for back-office displays
+- **[Computers](./computer-tv-hdmi-setup.md)** - Windows, Mac, or Linux for back-office displays
 
 ### BYOD vs. Complete Kits
 
