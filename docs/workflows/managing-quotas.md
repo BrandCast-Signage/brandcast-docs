@@ -35,23 +35,29 @@ Stores:    3/5 used (60%)
 
 ### Starter Plan
 - 5 displays
-- 5GB storage
-- 10 users
-- 2 stores
+- 1.5GB storage
+- 2 users
+- 1 store
+
+### Growth Plan
+- 15 displays
+- 1.5GB storage
+- 4 users
+- 3 stores
 
 ### Professional Plan
-- 25 displays
-- 50GB storage
-- 50 users
+- 50 displays
+- 10GB storage
+- 8 users
 - 10 stores
 
-### Enterprise Plan
-- Unlimited displays
-- 500GB+ storage
-- Unlimited users
-- Unlimited stores
+### Franchise Plan
+- 100 displays
+- 20GB storage
+- 15 users
+- 20 stores
 
-See [Pricing](https://brandcast.app/pricing) for current plans.
+See [Pricing & Plans](../getting-started/pricing-and-plans.md) for detailed plan information.
 
 ## Managing Storage
 
