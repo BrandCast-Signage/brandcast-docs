@@ -46,6 +46,8 @@ const sidebars: SidebarsConfig = {
       items: [
         'integrations/google-slides',
         'integrations/google-business-reviews',
+        'integrations/google-calendar',
+        'integrations/cozi-calendar',
         'integrations/stock-market',
         'integrations/weather',
         'integrations/canva',
