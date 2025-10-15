@@ -279,7 +279,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} BrandCast. All rights reserved.`,
+      copyright: `Copyright © ${new Date().getFullYear()} BrandCast. All rights reserved.<br/>Build: ${new Date().toISOString()} • ${Date.now().toString(36).toUpperCase()}`,
     },
     prism: {
       theme: prismThemes.github,
