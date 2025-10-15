@@ -1,14 +1,32 @@
 ---
-title: Google Calendar
+title: iCal Calendar Integration
 ---
 
-# Google Calendar Integration
+# iCal Calendar Integration - Universal Calendar Compatibility
 
-Display event calendars from Google Calendar, Outlook, Apple Calendar, or any iCal-compatible calendar service on your digital signage.
+Display event calendars from **any calendar provider** on your digital signage using the industry-standard iCal protocol.
+
+![iCal Universal Compatibility](/diagrams/ical-universal-compatibility-diagram.png)
+
+## What is iCal?
+
+**iCal (iCalendar)** is a universal calendar data exchange standard defined by RFC 5545. It's the `.ics` file format that **works with every major calendar provider**.
+
+**Why It Matters:**
+- ✅ **No vendor lock-in** - Switch calendar providers anytime
+- ✅ **Universal compatibility** - Works with Google, Apple, Outlook, Cozi, Yahoo, and any calendar that supports the standard
+- ✅ **Industry standard** - Proven, reliable, decades-old protocol
+- ✅ **Multiple calendars** - Combine calendars from different providers in one display
+
+**How It Works:**
+1. Your calendar provider generates an iCal feed URL (`.ics` file)
+2. BrandCast fetches and parses the iCal data
+3. Events display on your screens with automatic updates
+4. Works identically regardless of calendar provider
 
 ## Overview
 
-The Google Calendar integration enables you to show upcoming events, meetings, and appointments on your displays using the standard iCal format. This works with Google Calendar, Microsoft Outlook, Apple Calendar, and any other calendar service that provides an iCal feed URL.
+The iCal Calendar integration enables you to show upcoming events, meetings, and appointments on your displays using the standard iCal/ICS format. This works with **any** calendar service that provides an iCal feed URL.
 
 **Key Features:**
 - Multiple calendar feeds in one display
@@ -61,9 +79,13 @@ The Google Calendar integration enables you to show upcoming events, meetings, a
 - Member events
 - Instructor availability
 
-## Supported Calendar Services
+## Supported Calendar Providers
 
-### Google Calendar (Primary)
+**Any calendar service that provides an iCal/ICS feed URL works with BrandCast.** Here are the most common:
+
+### Google Calendar
+
+**Why It Works:** Google Calendar natively supports iCal export
 
 **Best For:**
 - Personal and business calendars
@@ -71,56 +93,99 @@ The Google Calendar integration enables you to show upcoming events, meetings, a
 - Resource calendars
 - Event calendars
 
-**Features:**
-- Easy iCal URL generation
+**iCal Features:**
+- Easy URL generation (Settings → Integrate → iCal format)
 - Multiple calendar support
-- Color coding
-- All-day events
-- Recurring events
+- All-day and recurring events
 - Timezone support
+- Color coding preserved
 
 **Website:** [calendar.google.com](https://calendar.google.com)
 
-### Microsoft Outlook
+### Microsoft Outlook / Office 365
+
+**Why It Works:** Outlook exports calendars in iCal format
 
 **Best For:**
 - Corporate calendars
-- Exchange calendars
+- Exchange server calendars
 - Office 365 calendars
-- Team calendars
+- Team and resource calendars
 
-**Features:**
-- iCal export
-- Shared calendars
-- Meeting rooms
-- Resource booking
+**iCal Features:**
+- Publish calendar to internet (Settings → Shared calendars)
+- Meeting room bookings
+- Resource availability
+- Recurring meetings
 
 **Website:** [outlook.com](https://outlook.com)
 
-### Apple Calendar (iCal)
+### Apple Calendar (iCloud)
+
+**Why It Works:** Apple Calendar invented the iCal format
 
 **Best For:**
 - Mac/iOS users
-- Personal calendars
+- Personal and family calendars
 - iCloud calendars
-- Family calendars
-
-**Features:**
-- Native iCal format
-- iCloud sync
-- Shared calendars
 - Calendar subscriptions
+
+**iCal Features:**
+- Native iCal format (it's named after this!)
+- Public calendar sharing
+- Subscription calendars
+- iCloud sync
 
 **Website:** [icloud.com/calendar](https://icloud.com/calendar)
 
-### Other iCal Services
+### Cozi Family Calendar
 
-Any service that provides an iCal/ICS URL:
-- Yahoo Calendar
-- AOL Calendar
+**Why It Works:** Cozi provides iCal export for family schedules
+
+**Best For:**
+- Family organization
+- Shared family events
+- Kids' activities
+- Household schedules
+
+**iCal Features:**
+- Family calendar export
+- Individual member calendars
+- Color-coded per person
+- Shopping list integration (not via iCal)
+
+**Website:** [cozi.com](https://cozi.com)
+
+### Yahoo Calendar
+
+**Why It Works:** Yahoo supports iCal export
+
+**Best For:**
+- Personal calendars
+- Yahoo Mail users
+- Basic event tracking
+
+**iCal Features:**
+- Calendar export via settings
+- Event sharing
+- Basic iCal feed
+
+**Website:** [calendar.yahoo.com](https://calendar.yahoo.com)
+
+### Any Other iCal-Compatible Service
+
+**These also work with BrandCast:**
 - CalDAV servers
-- Custom calendar systems
-- Event management platforms
+- Nextcloud Calendar
+- Zimbra Calendar
+- Radicale Calendar Server
+- SOGo Groupware
+- Event management platforms (Eventbrite, Meetup with iCal export)
+- Custom calendar systems that generate `.ics` feeds
+- Corporate calendar systems with iCal export
+- School/university calendar systems
+
+**The Rule:** If it exports an iCal/ICS URL, it works with BrandCast.
 
 ## Setup
 

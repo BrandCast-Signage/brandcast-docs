@@ -6,18 +6,43 @@ title: Integrations
 
 Integrations add dynamic, real-time content to your displays by connecting to external services and data sources.
 
+## Understanding Integrations vs. Content Import
+
+![Integration Flow](/diagrams/integration-flow-diagram.png)
+
+**Integrations = Live Data Feeds**
+
+Integrations continuously sync data from external services with **automatic updates**:
+- 🔄 Auto-refresh on schedule
+- 📡 Real-time data sync
+- ⏱️ System-controlled updates
+- 🔗 External service dependency
+
+**Examples:** RSS Feeds, Weather, Calendar (iCal), Google Slides, Stock Market, Social Media
+
+**Content Import = Add to Library**
+
+Import capabilities let you add content **once** to your Media Library:
+- 📥 Manual import process
+- 💾 Stored in your library
+- 👤 You control updates
+- 🎨 One-time process
+
+**Examples:** Direct Upload, Canva Import (Premium), URL Import, Google Photos (FamilyCast)
+
+**[Learn more about Content Import →](./content-import.md)**
+
+---
+
 ## Overview
 
 BrandCast supports a wide range of integrations to enhance your displays:
 
 **Content & Presentations:**
-- Google Slides - Display presentations
-- Canva - Design content
+- Google Slides - Display presentations with live sync
 
 **Calendars & Events:**
-- iCal Calendar - Events from any iCal-compatible source
-- Google Calendar - Google Calendar events
-- Cozi Calendar - Family calendar integration
+- iCal Calendar - Universal calendar integration (works with Google, Apple, Outlook, Cozi, and any iCal source)
 
 **Business Operations:**
 - ZoomShift - Employee scheduling
@@ -32,6 +57,13 @@ BrandCast supports a wide range of integrations to enhance your displays:
 
 **Entertainment:**
 - Dad Jokes - Daily humor content
+
+**Social & Reviews:**
+- Social Media Embeds - Instagram, Twitter/X, TikTok posts
+
+**Tasks & Productivity:**
+- Google Tasks - Task list integration
+- Cozi Lists - Shared family task lists (FamilyCast)
 
 ## Available Integrations
 
@@ -366,35 +398,6 @@ Display motivational and inspirational quotes on your screens.
 
 ---
 
-### Canva Integration
-
-Display designs created in Canva.
-
-**Use Cases:**
-- Marketing graphics
-- Promotional materials
-- Branded content
-- Custom designs
-
-**Setup:**
-
-1. Create design in Canva
-2. Share design publicly or get shareable link
-3. In BrandCast:
-   - Go to **Content Sources** → **Add Integration**
-   - Select **Canva**
-   - Enter Canva share URL
-   - Configure refresh interval
-4. Click **Save**
-
-**Tips:**
-- Design at 1920x1080 for full-screen displays
-- Use Canva templates optimized for screens
-- Share as public link for automatic updates
-- Refresh every 15-30 minutes to sync changes
-
----
-
 ### Dad Jokes
 
 Add daily humor to your displays.
@@ -603,8 +606,29 @@ Limits vary by subscription plan:
 
 View your current usage: **Settings** → **Billing** → **Integration Usage**
 
+## Related Features
+
+### Content Import (Not Integrations)
+
+Looking to add **static content** to your displays? These are **not integrations** - they're content import methods:
+
+- **[Canva Import](./content-import.md#canva-import)** (Premium) - Import Canva designs to your library
+- **[Direct Upload](./content-import.md#direct-upload)** - Drag and drop your own images/videos
+- **[URL Import](./content-import.md#url-import)** - Link to externally hosted images
+- **[Google Photos](./content-import.md#google-photos-sync)** (FamilyCast) - Sync photo albums
+
+### Slideshow Content
+
+Want to display images and presentations? **[Slideshow Content](./slideshow-content.md)** accepts content from **any source**:
+- Live: Google Slides integration
+- Imported: Canva designs (Premium)
+- Uploaded: Your own media
+- Linked: External URLs
+
 ## Next Steps
 
+- **[Content Import](./content-import.md)** - Add static content to your library
+- **[Slideshow Content](./slideshow-content.md)** - Display visual content from any source
 - **[Layouts](./layouts.md)** - Add integrations to your layouts
 - **[Content Library](./content-library.md)** - Combine integrations with media
 - **[Display Setup](../workflows/display-setup.md)** - Deploy to your displays
