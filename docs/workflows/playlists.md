@@ -264,8 +264,8 @@ Rotation: A → B → C → B → A → B → C → B (repeats)
 **Total Cycle Time:**
 - Calculate: Sum of all layout durations = one complete cycle
 - Recommended: 2-5 minutes per cycle
-- Too short (<1 min): Disorienting
-- Too long (>10 min): May miss content
+- Too short (&lt;1 min): Disorienting
+- Too long (&gt;10 min): May miss content
 
 **Content Variety:**
 - Mix content types (promos, info, social, etc.)
@@ -327,7 +327,7 @@ Rotation: A → B → C → B → A → B → C → B (repeats)
 - Playlists pre-load next layout
 - Ensures smooth transitions
 - More layouts = more memory usage
-- Keep playlist size reasonable (<15 layouts)
+- Keep playlist size reasonable (&lt;15 layouts)
 
 **Network Considerations:**
 - Content-heavy playlists need good bandwidth

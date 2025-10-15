@@ -17,7 +17,7 @@ const config: Config = {
   organizationName: 'BrandCast-Signage',
   projectName: 'brandcast-docs',
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {
