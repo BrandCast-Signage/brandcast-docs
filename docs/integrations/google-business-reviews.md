@@ -52,38 +52,42 @@ The Google Business Reviews integration pulls your verified customer reviews fro
 
 1. **Google Business Profile**:
    - Active and verified Google Business Profile
-   - Admin or manager access
-   - Business location ID
+   - **Owner or Manager access** (required for API access)
+   - Business location ID (Place ID)
 
-2. **Google Account**:
-   - Admin access to Google Business Profile
-   - OAuth authentication enabled
+2. **Google Account with Admin Access**:
+   - **IMPORTANT:** You must use a Google account that has **Owner** or **Manager** permissions for your Google Business Profile
+   - Standard user accounts or accounts without admin access will not work
+   - If you don't have admin access, contact your business profile administrator
 
 ### Step 1: Connect Google Account
 
 1. Navigate to **Content Sources** → **Integrations**
 2. Click **Add Integration**
 3. Select **Google Business Reviews**
-4. Click **Connect Google Account**
-5. Sign in with Google account that manages your Business Profile
-6. Grant permissions:
+4. **Read the admin access warning** - ensure you're using an admin account
+5. Click **Connect Google Business**
+6. Sign in with the Google account that has **Owner** or **Manager** access to your Business Profile
+7. Grant permissions:
    - View and manage Google Business Profile
    - Read reviews and ratings
-7. Authorization successful
+8. Authorization successful
 
-### Step 2: Select Business Location
+**⚠️ Common Mistake:** Using a personal Google account that doesn't have admin access to the Business Profile. This will result in authorization errors or empty review lists.
 
-1. System retrieves all locations you manage
-2. Select location to display reviews from
-3. View location details:
+### Step 2: Enter Place ID
+
+1. Find your Google Place ID using [Google's Place ID Finder](https://developers.google.com/maps/documentation/places/web-service/place-id)
+2. Enter the Place ID in the configuration form
+3. The system will validate and fetch your business details:
    - Business name
    - Address
    - Current rating
    - Total review count
 
 **Multiple Locations:**
-- Create separate content sources for each
-- Or rotate between locations on schedule
+- Create separate content sources for each location (each needs its own Place ID)
+- Rotate between locations on schedule
 - Compare reviews across locations
 
 ### Step 3: Configure Review Settings
@@ -112,88 +116,85 @@ The Google Business Reviews integration pulls your verified customer reviews fro
 3. Set **Content Type** to "Reviews"
 4. Select Google Business Reviews source
 5. Choose display style:
-   - **Cards**: Visual review cards
-   - **Slideshow**: One review at a time
-   - **List**: Multiple reviews vertically
-   - **Ticker**: Scrolling review snippets
+   - **Carousel**: One review at a time (auto-advances)
+   - **List**: Multiple reviews vertically (scrollable)
+   - **Grid**: Reviews in responsive grid layout
 6. Configure styling and colors
 7. Save layout
 
 ## Display Styles
 
-### Card Style
+### Carousel Mode
 
 **Appearance:**
-- Individual review cards
-- Star rating at top
-- Review text
-- Reviewer name and photo
-- Business reply (if applicable)
-
-**Best For:**
-- Highlighting individual reviews
-- Visual impact
-- Sufficient screen space
-- Premium feel
-
-**Configuration:**
-```
-Cards Per Screen: 2-4
-Duration: 10-15 seconds per set
-Transition: Fade or slide
-Show: Photo, name, rating, text, date
-```
-
-### Slideshow Style
-
-**Appearance:**
-- One review at a time
-- Large text for readability
-- Full review content
+- One review at a time, full screen
+- Large, readable text
 - Prominent star rating
-- Auto-advances
+- Reviewer photo and name
+- Auto-advances to next review
 
 **Best For:**
-- Detailed review display
-- Maximum readability
-- Focused attention
-- Smaller displays
+- Maximum impact and readability
+- Focused customer attention
+- Smaller displays or limited space
+- Highlighting individual reviews
 
 **Configuration:**
 ```
-Duration Per Review: 8-12 seconds
-Transition: Fade
-Show: Full review text (truncated if very long)
-Background: Brand colors
+Duration Per Review: 5-10 seconds (configurable)
+Auto-advance: Yes
+Show: Full review text (truncated at 300 characters)
+Reviewer Info: Name and photo (configurable)
+Progress Indicators: Dots showing position in rotation
 ```
 
-### List Style
+### List Mode
 
 **Appearance:**
-- Vertical list of reviews
-- Compact format
-- Multiple reviews visible
-- Scrolls or static
+- Vertical scrolling list of reviews
+- Compact card format for each review
+- Multiple reviews visible simultaneously
+- Star ratings and review text
+- Scrollable for longer lists
 
 **Best For:**
-- Showing many reviews at once
-- Quick scanning
-- Larger displays
-- Sidebar content
+- Displaying many reviews at once
+- Quick scanning of customer feedback
+- Larger displays with vertical space
+- Sidebar or dedicated review sections
 
-### Ticker Style
+**Configuration:**
+```
+Reviews Displayed: Up to 50 (configurable max)
+Card Size: Compact format
+Auto-scroll: Optional
+Show: Name, photo, rating, truncated text (150 chars)
+Spacing: Optimized for readability
+```
+
+### Grid Mode
 
 **Appearance:**
-- Scrolling ticker with review snippets
-- "⭐⭐⭐⭐⭐ Great service! - John D."
-- Continuous scroll
-- Bottom or top of screen
+- Responsive grid layout
+- Review cards in rows and columns
+- Minimum 300px per card
+- Adapts to screen width
+- Professional card-based design
 
 **Best For:**
-- Space-constrained layouts
-- Continuous content stream
-- Non-intrusive display
-- Combining with other content
+- Maximum reviews visible
+- Balanced, organized appearance
+- Wide displays or main content areas
+- Modern, professional aesthetic
+
+**Configuration:**
+```
+Grid: Auto-fill (min 300px per card)
+Responsive: Yes
+Cards Per Row: Auto-adjusts to screen width
+Show: Compact review info
+Overflow: Scrollable
+```
 
 ## Best Practices
 
