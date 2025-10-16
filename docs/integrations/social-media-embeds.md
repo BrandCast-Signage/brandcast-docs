@@ -756,6 +756,170 @@ Display: Event venue screens
 | **Analytics** | Yes | Limited | Detailed | Yes |
 | **Best For** | Production | Testing | Advanced | Events |
 
+## Security & Implementation
+
+### Security Features
+
+BrandCast implements multiple security layers to protect your displays from malicious embed code:
+
+**XSS Prevention:**
+- Dangerous pattern detection (inline event handlers, data URIs, vbscript)
+- Automatic sanitization of embed code
+- Blocking of potentially malicious JavaScript patterns
+
+**Domain Whitelisting:**
+- Only approved domains allowed per service
+- Curator.io: `curator.io`, `cdn.curator.io`
+- Juicer: `juicer.io`, `assets.juicer.io`
+- Taggbox: `taggbox.com`, `widget.taggbox.com`
+- Walls.io: `walls.io`
+- EmbedSocial: `embedsocial.com`, `cdn.embedsocial.com`
+
+**HTTPS Enforcement:**
+- All embed sources must use HTTPS
+- Non-secure embeds rejected automatically
+- Secure connection verification
+
+**Content Security Policy (CSP):**
+- Backend enforces strict CSP headers
+- script-src whitelists only approved domains
+- frame-src controls iframe sources
+- Prevents unauthorized code execution
+
+**iframe Sandboxing:**
+- Automatic sandbox attributes added to iframes
+- Restricts iframe capabilities
+- `allow-scripts allow-same-origin` permissions
+
+### Validation Process
+
+**Embed Code Validation:**
+
+1. **Format Check** - Verifies iframe or script tags present
+2. **Pattern Detection** - Scans for dangerous code patterns
+3. **URL Validation** - Confirms HTTPS and valid URLs
+4. **Domain Verification** - Checks against service whitelist
+5. **Sanitization** - Removes/modifies unsafe elements
+6. **Security Metadata** - Tracks validation status
+
+**Validation Response:**
+```json
+{
+  "isValid": true,
+  "embedType": "iframe",
+  "service": "curator",
+  "isSecure": true,
+  "iframeSrc": "https://curator.io/...",
+  "errors": []
+}
+```
+
+### Technical Architecture
+
+**Backend Components:**
+- `EmbedCodeValidator` - XSS-safe validation engine
+- `SocialMediaEmbedService` - CRUD operations
+- API routes with JWT authentication
+- Database: ContentSource model with SOCIAL_EMBED type
+
+**Frontend Components:**
+- `SocialEmbedConfig` - Configuration UI with live validation
+- `SocialEmbedDisplay` - Renderer with auto-refresh
+- Visual security indicators (HTTPS badge, embed type)
+
+**Auto-Refresh:**
+- Configurable refresh intervals (60 seconds to 24 hours)
+- Automatic content updates without page reload
+- Respects service rate limits
+
+## API Reference
+
+### Validate Embed Code
+
+**Endpoint:** `POST /api/integrations/social-media-embeds/validate`
+
+**Request:**
+```json
+{
+  "embedCode": "<iframe src='https://curator.io/...' ...></iframe>",
+  "service": "curator"
+}
+```
+
+**Response:**
+```json
+{
+  "success": true,
+  "isValid": true,
+  "errors": [],
+  "parsedEmbed": {
+    "type": "iframe",
+    "service": "curator",
+    "embedCode": "<iframe sandbox='allow-scripts allow-same-origin' src='https://curator.io/...' ...></iframe>",
+    "iframeSrc": "https://curator.io/...",
+    "isSecure": true
+  }
+}
+```
+
+### Create Social Embed
+
+**Endpoint:** `POST /api/integrations/social-media-embeds`
+
+**Request:**
+```json
+{
+  "storeId": "store_123",
+  "name": "Instagram Feed",
+  "description": "Customer photos with #YourBrand",
+  "service": "curator",
+  "embedCode": "<iframe src='...' ...></iframe>",
+  "refreshInterval": 300
+}
+```
+
+**Response:**
+```json
+{
+  "success": true,
+  "embed": {
+    "id": "embed_456",
+    "name": "Instagram Feed",
+    "service": "curator",
+    "embedType": "iframe",
+    "isActive": true,
+    "refreshInterval": 300,
+    "createdAt": "2025-10-16T..."
+  }
+}
+```
+
+### List Service Domains
+
+**Endpoint:** `GET /api/integrations/social-media-embeds/services/list`
+
+**Response:**
+```json
+{
+  "success": true,
+  "services": {
+    "curator": ["curator.io", "cdn.curator.io"],
+    "juicer": ["juicer.io", "assets.juicer.io"],
+    "taggbox": ["taggbox.com", "widget.taggbox.com"],
+    "walls": ["walls.io"],
+    "embedsocial": ["embedsocial.com", "cdn.embedsocial.com"],
+    "custom": []
+  },
+  "serviceInfo": {
+    "curator": {
+      "name": "Curator.io",
+      "description": "Professional social media aggregator",
+      "url": "https://curator.io"
+    }
+  }
+}
+```
+
 ## Next Steps
 
 - **[Content Types](../features/content-types.md)** - Learn about SOCIAL_EMBED type
