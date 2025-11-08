@@ -1,6 +1,6 @@
 ---
 title: Welcome to BrandCast
-slug: /
+slug: /docs
 ---
 
 # Welcome to BrandCast Documentation
