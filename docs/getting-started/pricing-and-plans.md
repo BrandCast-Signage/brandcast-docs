@@ -4,291 +4,211 @@ title: Pricing & Plans
 
 # Pricing & Plans
 
-Choose the perfect plan for your business. All plans include real human support and essential features to get you started.
+:::warning BETA Pricing
+BrandCast is currently in beta. Pricing is subject to change as we refine our product based on customer feedback. Early adopters will be notified of any pricing changes with 30 days notice.
+:::
 
-## Plan Comparison
+Simple, transparent pricing that scales with your business. Pay only for the displays you use.
 
-| Feature | Starter | Growth | Professional | Franchise |
-|---------|---------|--------|--------------|-----------|
-| **Monthly Price** | $25 | $75 | $250 | $450 |
-| **Digital Displays** | Up to 5 | Up to 15 | Up to 50 | Up to 100 |
-| **Store Locations** | 1 location | Up to 3 | Up to 10 | Up to 20 |
-| **Team Members** | 2 users | 4 users | 8 users | 15 users |
-| **Content Items** | 20 items | 60 items | 200 items | 400 items |
-| **Storage Space** | 1.5 GB | 1.5 GB | 10 GB | 20 GB |
-| **Integrations** | 15 integrations | 45 integrations | 150 integrations | 300 integrations |
-| **Support** | Email & Phone | Email & Phone | Priority Support | Dedicated Account Manager |
-| **Best For** | Single location | Growing businesses | Regional chains | National franchises |
+## How BrandCast Pricing Works
 
-## Plan Details
+BrandCast uses **pay-per-display pricing** with automatic volume discounts. The more displays you add, the less you pay per display.
 
-### Starter Plan - $25/month
-**Perfect for single-location businesses**
+### Pricing Tiers
 
-The Starter plan gives you everything you need to get started with digital signage:
-- **5 digital displays** - Enough for a small store or restaurant
-- **1 store location** - Perfect for single-site businesses
-- **2 team members** - You and a manager or assistant
-- **1.5 GB storage** - Store hundreds of images and videos
-- **Essential integrations** - Weather, RSS feeds, slideshows
+| Displays | Price Per Display | Monthly Cost |
+|----------|-------------------|--------------|
+| **1-5 displays** | $8/display | $8 - $40/month |
+| **6-10 displays** | $7/display | $42 - $70/month |
+| **11-25 displays** | $6/display | $66 - $150/month |
+| **26+ displays** | $5/display | $130+/month |
 
-**Who it's for:**
-- Small retail stores
-- Single restaurants or cafes
-- Professional offices
-- Service businesses
+### Examples
 
-### Growth Plan - $75/month ⭐ Most Popular
-**Ideal for growing multi-location businesses**
+- **Small store** (2 displays): 2 × $8 = **$16/month**
+- **Growing business** (8 displays): 8 × $7 = **$56/month**
+- **Regional chain** (20 displays): 20 × $6 = **$120/month**
+- **Large franchise** (50 displays): 50 × $5 = **$250/month**
 
-Expand your digital signage across multiple locations with the Growth plan:
-- **15 digital displays** - Cover multiple locations thoroughly
-- **3 store locations** - Perfect for growing chains
-- **4 team members** - Add managers for each location
-- **1.5 GB storage** - Shared across all locations
-- **Extended integrations** - All Starter features plus advanced options
-- **Advanced analytics** - Track engagement and performance
+## What's Included
 
-**Who it's for:**
-- Multi-location restaurants
-- Small retail chains
-- Growing franchises
-- Regional businesses
+### Every Account Includes:
 
-**Additional Features:**
-- Canva design import
-- Advanced scheduling
-- Multi-store content management
-- Performance analytics dashboard
+- **Unlimited content items** - No limits on images, videos, or content
+- **All integrations** - Google Workspace, Canva, weather, calendars, and more
+- **Unlimited team members** - Add as many users as you need
+- **Unlimited stores** - Manage multiple locations at no extra cost
+- **2GB storage per display** - Scales automatically as you add displays
+- **Email support** - Get help when you need it
+- **Training resources** - Video tutorials and documentation
 
-### Professional Plan - $250/month
-**Built for regional chains**
+### Storage
 
-Take control of your brand across multiple locations with Professional features:
-- **50 digital displays** - Comprehensive coverage for larger operations
-- **10 store locations** - Manage a regional presence
-- **8 team members** - Full management team access
-- **10 GB storage** - Extensive media library
-- **Full integrations suite** - All available integrations
-- **Priority support** - Faster response times
+- **Included:** 2GB per display (10 displays = 20GB total)
+- **Overage:** $1/GB per month for additional storage
 
-**Who it's for:**
-- Regional restaurant chains
-- Multi-state retailers
-- Large franchises
-- Corporate offices
+## Volume Discounts Explained
 
-**Additional Features:**
-- Everything in Growth, plus:
-- Custom branding options
-- API access for custom integrations
-- Bulk content management
-- Advanced user permissions
-- Quarterly business reviews
+### Retroactive Pricing
 
-### Franchise Plan - $450/month
-**Enterprise-grade for national brands**
+When you cross into a new pricing tier, **ALL your displays** get the lower price, not just the new ones.
 
-Maximum scalability and control for large-scale operations:
-- **100 digital displays** - National coverage
-- **20 store locations** - Coast-to-coast management
-- **15 team members** - Full corporate and regional teams
-- **20 GB storage** - Massive media library
-- **Unlimited integrations** - No restrictions
-- **Dedicated account manager** - Personal support contact
+**Example:**
+- You have 5 displays at $8 each = $40/month
+- You add a 6th display
+- ALL 6 displays now cost $7 each = $42/month (not $40 + $7 = $47)
 
-**Who it's for:**
-- National franchises
-- Large retail chains
-- Multi-brand operators
-- Enterprise businesses
+This means the more you grow, the more you save.
 
-**Additional Features:**
-- Everything in Professional, plus:
-- White-label options
-- Custom training sessions
-- SLA guarantees
-- Advanced API access
-- Enterprise dashboard
-- Dedicated support channel
+## Features Unlock as You Grow
 
-## Quotas and Limits
+Certain premium features unlock automatically based on your display count:
 
-Each plan includes specific quotas for resources:
+| Feature | Unlocks At |
+|---------|-----------|
+| **Advanced Templates** | 3+ displays |
+| **Real-Time Analytics** | 5+ displays |
+| **Bulk Operations** | 10+ displays |
+| **Developer API Access** | 25+ displays |
 
-### Understanding Quotas
-- **Displays**: Number of active digital displays you can manage
-- **Storage**: Total space for images, videos, and documents
-- **Users**: Number of team members who can access your account
-- **Stores**: Number of separate locations you can manage
-- **Content Items**: Total pieces of content in your library
-- **Integrations**: External services you can connect
+No need to change plans - features unlock automatically when you add displays.
 
-### What Happens at Quota Limits?
-- You'll receive warnings at 75% and 90% usage
-- At 100%, you cannot add new items until you upgrade or free up space
-- Existing displays continue working normally
-- Support can provide temporary increases for special events
+## Billing Details
 
-## Choosing the Right Plan
+### How Billing Works
 
-### Start Small, Grow Big
-- Begin with Starter if you're testing digital signage
-- Upgrade anytime as your needs grow
-- No contracts or cancellation fees
-- Pro-rated billing when upgrading
-
-### Questions to Consider:
-1. **How many locations do you have?**
-   - 1 location → Starter
-   - 2-3 locations → Growth
-   - 4-10 locations → Professional
-   - 10+ locations → Franchise
-
-2. **How many displays per location?**
-   - 1-3 displays → Calculate total across locations
-   - Consider future expansion plans
-   - Account for seasonal variations
-
-3. **How many people need access?**
-   - Owner only → Starter
-   - Owner + managers → Growth or Professional
-   - Multiple teams → Franchise
-
-4. **What's your content strategy?**
-   - Simple images/text → Starter storage is fine
-   - Heavy video use → Consider Professional or higher
-   - Extensive media library → Franchise recommended
-
-## Support Included in Every Plan
-
-### All Plans Include:
-- **US-based human support** - No chatbots or call centers
-- **Email support** - 4-hour response time during business hours
-- **Phone support** - Direct line for urgent issues
-- **Screen sharing** - Remote assistance when needed
-- **Setup assistance** - Help getting started
-- **Training resources** - Video tutorials and guides
-
-### Enhanced Support by Tier:
-- **Growth**: Priority email responses
-- **Professional**: Dedicated support queue, quarterly reviews
-- **Franchise**: Dedicated account manager, custom training
-
-## Billing and Payment
-
-### Billing Cycle
-- Monthly billing on the same date each month
-- Annual billing available (save 10%)
-- Pro-rated charges for mid-month upgrades
-- Full month credit for downgrades
+- **Monthly billing** on the same date each month
+- **Pay only for active displays** - Pause displays anytime
+- **Pro-rated charges** - Adding displays mid-month? You only pay for the days remaining
+- **Pro-rated credits** - Removing displays mid-month? Get credit for unused days
+- **No contracts** - Cancel anytime
+- **No setup fees** - Start immediately
+- **No cancellation fees** - Leave whenever you want
 
 ### Accepted Payment Methods
+
 - All major credit cards (Visa, Mastercard, Amex, Discover)
-- ACH bank transfer (Professional and Franchise only)
-- Invoicing available for annual plans
+- Automatic monthly billing via Stripe
 
-### No Hidden Fees
-- No setup fees
-- No cancellation fees
-- No overage charges
-- Transparent, predictable pricing
+### Transparent Pricing
 
-## Upgrading Your Plan
+- No hidden fees
+- No overage penalties
+- Predictable monthly costs
+- Real-time billing preview in dashboard
 
-### When to Upgrade
-Consider upgrading when you:
-- Consistently use >80% of any quota
-- Need features from a higher tier
-- Are expanding to new locations
-- Want better support options
+## Managing Your Account
 
-### How to Upgrade
-1. Go to **Settings** → **Billing**
-2. Click **Change Plan**
-3. Select your new plan
-4. Review pro-rated charges
-5. Confirm upgrade
+### Adding Displays
 
-**Upgrades take effect immediately** with instant access to new quotas and features.
+1. Create a new display in your dashboard
+2. System calculates pro-rated charge for current billing period
+3. Display goes live immediately
+4. If you cross into a new tier, all displays benefit from the lower price
 
-## Downgrading Your Plan
+### Removing Displays
 
-### Before Downgrading
-Ensure you're within the lower plan's limits:
-1. Check current usage in Settings → Quotas
-2. Deactivate unused displays
-3. Remove inactive users
-4. Delete unnecessary content
+1. Deactivate display from your dashboard
+2. System issues pro-rated credit for remaining days
+3. Credit applies to next month's bill
 
-### Downgrade Process
-1. Reduce usage below new plan limits
-2. Go to Settings → Billing → Change Plan
-3. Select lower plan
-4. Confirm you meet requirements
-5. Process downgrade
+### Pausing Your Account
 
-**Note**: Downgrades take effect at the next billing cycle.
+Need to pause during off-season?
+- Deactivate all displays
+- You'll only be charged for storage ($1/GB if over 0GB)
+- Reactivate anytime - all your content and settings are preserved
 
-## Free Trial Information
+## Support
 
-### 14-Day Free Trial
-- Full access to Growth plan features
-- No credit card required
-- Automatic conversion to paid plan
-- Cancel anytime during trial
+### What's Included
 
-### What's Included in Trial:
-- 15 displays
-- 3 store locations
-- All Growth plan features
-- Full support access
-- Training resources
+- **Email support** - Contact us anytime
+- **Setup assistance** - We'll help you get started
+- **Training resources** - Video tutorials and documentation
+- **Community forum** - Learn from other BrandCast users
+
+### Response Times
+
+We aim to respond to support requests within 1 business day. As we grow, we'll formalize support SLAs based on customer needs.
+
+## Free Trial
+
+### 14-Day Trial
+
+- **Full access** to all BrandCast features
+- **No credit card required** to start
+- **Test with real displays** - Set up your actual hardware
+- **Cancel anytime** - No obligations
+
+### What You Can Test
+
+- Set up displays in multiple locations
+- Try all integrations
+- Test content management
+- Evaluate the full platform
+
+## Enterprise Solutions
+
+Need more than 100 displays or custom features?
+
+**Custom solutions available for:**
+- National franchises (100+ displays)
+- Multi-brand operators
+- Custom integration requirements
+- Dedicated infrastructure
+- Service level agreements
+
+**[Contact our team](mailto:sales@brandcast.app)** to discuss enterprise pricing and features.
 
 ## Frequently Asked Questions
 
-**Can I change plans anytime?**
-Yes! Upgrade immediately or downgrade at your next billing cycle.
+**How does billing work when I add displays mid-month?**
+You're charged a pro-rated amount for the days remaining in your billing cycle. For example, if you add a display halfway through the month, you only pay for half the month.
 
-**What happens if I exceed my quotas?**
-You'll receive warnings but service continues. You cannot add new items until you upgrade or reduce usage.
+**What happens when I remove displays?**
+You receive a pro-rated credit that applies to your next bill. No wasted money.
 
-**Is there a contract?**
-No contracts or commitments. Cancel anytime.
+**Can I change how many displays I have anytime?**
+Yes! Add or remove displays whenever you want. Billing adjusts automatically.
 
-**Can I get a custom plan?**
-For needs beyond Franchise tier, contact sales for custom enterprise solutions.
+**Is there a minimum number of displays?**
+No minimum. You can start with just 1 display.
+
+**What if I need to pause my business seasonally?**
+Deactivate all your displays during your off-season. You'll only pay for storage (if any). Reactivate when you're ready to reopen.
 
 **Do you offer non-profit discounts?**
-Yes, 20% discount for qualified 501(c)(3) organizations.
+Yes, we offer 20% off for qualified 501(c)(3) organizations. Contact us for verification.
 
-**What about seasonal businesses?**
-You can pause your account during off-seasons (Professional and Franchise only).
+**Can I get a refund if I cancel?**
+We don't offer refunds for the current billing period, but you can use BrandCast until the end of your paid period. Your card won't be charged again.
 
-## Enterprise and Custom Solutions
+**What happens if I go over my storage limit?**
+You'll be charged $1/GB per month for any storage over your included amount (2GB per display). You can see your storage usage in real-time in your dashboard.
 
-For organizations needing:
-- More than 100 displays
-- More than 20 locations
-- Custom integrations
-- White-label solutions
-- Compliance requirements
-- Dedicated infrastructure
+## Pricing Philosophy
 
-**Contact our sales team** for custom pricing and solutions tailored to your specific needs.
+We believe pricing should be:
+- **Simple** - No complicated tiers or hidden fees
+- **Fair** - Pay for what you use, nothing more
+- **Transparent** - See exactly what you'll pay before you commit
+- **Scalable** - Pricing that grows with you, not against you
+
+As a small, bootstrapped team, we're focused on building a sustainable business that serves our customers well. Your feedback on pricing is welcome as we refine our model.
 
 ## Next Steps
 
 Ready to get started?
 
 1. **[Start Free Trial](https://app.brandcast.app/signup)** - No credit card required
-2. **[Schedule Demo](https://brandcast.app/demo)** - See BrandCast in action
-3. **[Contact Sales](mailto:sales@brandcast.app)** - Discuss your specific needs
-4. **[View Features](../features/layouts.md)** - Explore what you can do
+2. **[View Demo](https://brandcast.app/demo)** - See BrandCast in action
+3. **[Contact Us](mailto:hello@brandcast.app)** - Questions? We're here to help
+4. **[Getting Started Guide](./quick-start.md)** - Set up your first display
 
 ## Related Articles
 
-- **[Managing Quotas](../workflows/managing-quotas.md)** - Detailed quota management guide
 - **[Account Settings](../workflows/account-settings.md)** - Manage your account
 - **[Billing & Payments](../workflows/billing-and-payments.md)** - Payment management
 - **[Getting Started](./quick-start.md)** - Set up your first display
+- **[Display Setup](../workflows/display-setup.md)** - Hardware setup guide

@@ -647,74 +647,26 @@ Layout: "Family Command Center"
 - Lists: Color-coded by list type
 - Unified visual system
 
-## API Reference
+## Technical Details
 
-### Create Cozi Calendar Source
+**Integration Method:** iCal Feed
 
-```
-POST /api/content-sources
-Authorization: Bearer {userToken}
-Content-Type: application/json
+Cozi Calendar integration works by subscribing to your Cozi family calendar's iCal feed URL. BrandCast periodically fetches this feed (every 5 minutes by default) to stay synchronized with your family's schedule.
 
-{
-  "name": "Smith Family Calendar",
-  "type": "CALENDAR",
-  "sourceType": "INTEGRATION",
-  "integrationType": "COZI_CALENDAR",
-  "storeId": "store_abc123",
-  "config": {
-    "refreshInterval": 300,
-    "maxEvents": 20,
-    "dateRange": 14,
-    "showFamilyColors": true
-  }
-}
-```
+**Authentication:** Feed URL Only
 
-### Add Cozi Calendar Feed
+No OAuth or account login required. The iCal feed URL acts as the authentication credential - keep it private.
 
-```
-POST /api/content-sources/:contentSourceId/calendar-feeds
-Authorization: Bearer {userToken}
-Content-Type: application/json
+**Data Flow:**
+1. You add events in Cozi app
+2. Cozi updates the iCal feed
+3. BrandCast fetches updated feed (every 5 min)
+4. Events appear on your displays
 
-{
-  "name": "Smith Family",
-  "icalUrl": "https://www.cozi.com/feeds/calendar/ics/abc123/",
-  "isActive": true,
-  "priority": 100,
-  "color": null
-}
-```
-
-### Get Family Events
-
-```
-GET /api/content-sources/:contentSourceId/events?dateRange=14
-Authorization: Bearer {userToken}
-```
-
-**Response:**
-```json
-{
-  "success": true,
-  "data": {
-    "events": [
-      {
-        "id": "cozi_event_abc123",
-        "title": "Tommy - Soccer Practice",
-        "start": "2025-10-14T15:30:00Z",
-        "end": "2025-10-14T17:00:00Z",
-        "location": "Lincoln Park Fields",
-        "description": "Bring water bottle and cleats",
-        "isAllDay": false,
-        "feedColor": "#00FF00",
-        "familyMember": "Tommy"
-      }
-    ]
-  }
-}
-```
+**Sync Frequency:**
+- Default: 5 minutes
+- Configurable: 1-60 minutes
+- Manual sync: Available anytime
 
 ## Next Steps
 

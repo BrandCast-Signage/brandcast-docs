@@ -267,6 +267,92 @@ Message: "SALE NOW LIVE!"
 
 ## Dynamic Data Content Types
 
+### EMAIL_SUMMARY
+
+**Description:** Display AI-generated summaries of actionable items from Gmail inbox
+
+**Details:** See [Gmail Integration](../integrations/gmail.md) for full setup guide
+
+:::caution Third-Party Verification In Progress
+The Gmail integration is currently undergoing Google's OAuth verification process. This feature will be available once verification is complete (estimated 4-8 weeks).
+:::
+
+**Use Cases:**
+- Office displays with team email summaries
+- Executive dashboards with urgent items
+- Shared inbox monitoring
+- Action item tracking
+- Team communication hubs
+
+**Data Displayed:**
+- Actionable items from recent emails (deadlines, requests, notifications)
+- Priority levels (HIGH, MEDIUM, LOW)
+- Sender information (privacy-aware display)
+- Unread email count
+- Last update timestamp
+
+**Configuration:**
+- **Gmail Account:** Connected via OAuth
+- **Max Emails Analyzed:** 25-100 recent emails
+- **Max Items Displayed:** 5-20 actionable items
+- **Privacy Level:** Low (show names), Medium (initials), High (hide senders)
+- **Labels:** Which Gmail labels to analyze (INBOX, Work, etc.)
+- **Exclude Labels:** Skip SPAM, TRASH
+- **Refresh Interval:** 15-60 minutes
+
+**Privacy & Security:**
+- AI-powered content redaction (emails, phones, SSN, credit cards)
+- Read-only access (never sends or modifies emails)
+- Email content not stored permanently
+- OAuth tokens stored securely
+- Not suitable for public displays
+
+**Display Styles:**
+- **Priority List:** Grouped by HIGH/MEDIUM/LOW
+- **Simple List:** Linear list of action items
+- **Card View:** Individual cards with details
+- **Compact:** Headlines only, minimal detail
+
+**Best Practices:**
+- Use on private/office displays only (not public lobbies)
+- Adjust privacy level based on display visibility
+- Filter by labels to focus on work-related emails
+- Set appropriate refresh interval (15-30 min typical)
+- Review what information appears before deploying
+
+**Example Display:**
+```
+Gmail Summary - Updated 5 minutes ago
+
+🔴 HIGH PRIORITY
+- Meeting RSVP due Friday (from J.Smith)
+- Contract signature needed (from Legal)
+
+🟡 MEDIUM
+- Package delivery Monday (from Shipping)
+- Team lunch reminder (from A.Jones)
+
+🟢 LOW
+- Newsletter: Monthly updates
+
+📧 12 unread emails
+```
+
+**What Gets Redacted:**
+- Email addresses
+- Phone numbers
+- Social Security numbers
+- Credit card numbers
+- Sensitive personal identifiers
+
+**Performance:**
+- Medium resource usage (AI processing)
+- Refresh every 15-60 minutes
+- Initial sync may take 30-60 seconds
+- Requires stable internet connection
+
+---
+
 ### WEATHER
 
 **Description:** Display current weather conditions and forecasts

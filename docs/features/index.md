@@ -97,15 +97,13 @@ Connect third-party services for dynamic, always-current content.
 - Playlist rotation
 - Bulk operations
 
-## Enterprise Features
+## Advanced Features
 
-The following features are available on Professional and Enterprise plans:
+As you scale, additional capabilities unlock:
 
-- **Advanced Analytics** - Detailed display performance metrics
-- **Custom Integrations** - Build your own content sources
-- **Priority Support** - 4-8 hour response time
-- **Dedicated Account Manager** - (Enterprise only)
-- **Custom SLA** - (Enterprise only)
+- **Display Health Monitoring** - Track uptime, connection status, and basic performance metrics (5+ displays)
+- **Bulk Operations** - Manage multiple displays simultaneously (10+ displays)
+- **Developer API Access** - API keys for programmatic access (25+ displays)
 
 ## Next Steps
 
