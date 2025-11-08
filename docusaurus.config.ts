@@ -191,7 +191,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          routeBasePath: '/', // Docs at root instead of /docs
+          routeBasePath: 'docs', // Docs at /docs, homepage at root
         },
         blog: false, // Disable blog
         theme: {
@@ -228,6 +228,11 @@ const config: Config = {
           sidebarId: 'docsSidebar',
           position: 'left',
           label: 'Documentation',
+        },
+        {
+          href: 'https://news.brandcast.app',
+          label: 'Blog',
+          position: 'left',
         },
         {
           href: 'https://brandcast.app',
