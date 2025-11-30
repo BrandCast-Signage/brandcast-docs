@@ -66,10 +66,11 @@ Certain premium features unlock automatically based on your display count:
 
 | Feature | Unlocks At |
 |---------|-----------|
-| **Advanced Templates** | 3+ displays |
-| **Real-Time Analytics** | 5+ displays |
-| **Bulk Operations** | 10+ displays |
-| **Developer API Access** | 25+ displays |
+| **Basic Templates** | 1+ Display |
+| **Multi-zone Layouts & Sync** | 3+ Displays |
+| **Analytics & A/B Testing** | 5+ Displays |
+| **Multi-location Management** | 10+ Displays |
+| **Developer API Access** | 25+ Displays |
 
 No need to change plans - features unlock automatically when you add displays.
 

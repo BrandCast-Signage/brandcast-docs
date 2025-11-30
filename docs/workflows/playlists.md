@@ -249,7 +249,7 @@ Rotation: A → B → C → B → A → B → C → B (repeats)
 - Stock level-based: Low stock highlights
 - Time-sensitive: Flash sale playlist
 
-**Requires:** Professional plan, rule engine setup
+**Requires:** 5+ displays (Advanced Analytics & Logic)
 
 ## Best Practices
 
@@ -463,7 +463,7 @@ Rotation: A → B → C → B → A → B → C → B (repeats)
 **To Synchronize:**
 1. Assign playlist to all displays simultaneously
 2. Or use schedule to start all at specific time
-3. Professional plan: Sync feature available
+3. **Content Sync:** Available for accounts with 3+ displays
 
 ## Examples and Use Cases
 

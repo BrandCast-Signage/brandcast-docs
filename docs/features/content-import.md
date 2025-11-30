@@ -91,10 +91,10 @@ Content Import lets you add images, videos, and graphics to your Media Library f
 
 **Best For:** Marketing graphics, branded content, professional designs
 
-**Tier Availability:** Premium, Professional, Enterprise
+**Availability:** Included in all accounts
 
 **Prerequisites:**
-- BrandCast Premium or higher
+- BrandCast account (any size)
 - Canva account (Free, Pro, or Enterprise)
 - Designs created and saved in Canva
 
@@ -531,10 +531,10 @@ Transition: Fade
 - Remove duplicate imports
 - Review storage usage monthly
 
-**Storage Limits by Plan:**
-- Starter: 5GB
-- Professional: 50GB
-- Enterprise: Unlimited
+**Storage Limits:**
+- **Included:** 2GB per display
+- **Overage:** $1/GB per month
+- **Enterprise:** Custom limits available
 
 **Monitor Usage:**
 Settings → Billing → Storage Usage

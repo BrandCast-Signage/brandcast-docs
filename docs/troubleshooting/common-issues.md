@@ -461,8 +461,8 @@ If behind corporate firewall, ask IT to whitelist these domains.
 
 **Activate Subscription:**
 1. Go to **Settings** → **Billing**
-2. Click **Choose Plan**
-3. Select plan (Starter, Professional, Enterprise)
+2. Click **Add Displays**
+3. Enter number of displays needed
 4. Enter payment details
 5. Confirm subscription
 
@@ -514,19 +514,19 @@ If behind corporate firewall, ask IT to whitelist these domains.
 **Email Support:**
 - Email: support@brandcast.app
 - Response time: 24-48 hours (Standard)
-- Response time: 4-8 hours (Professional/Enterprise)
+- Response time: 4-8 hours (10+ Displays)
 - Include all information listed above
 
 **Live Chat:**
 - Available in dashboard (bottom-right corner)
 - Available: Monday-Friday, 9 AM - 5 PM EST
 - Instant responses during business hours
-- Professional/Enterprise plans only
+- Available for accounts with 10+ displays
 
 **Emergency Support:**
 - Email: emergency@brandcast.app
 - Critical issues only (displays down during business hours, data loss)
-- Enterprise plans only
+- Available for accounts with 25+ displays
 - 1-hour response time
 
 **Knowledge Base:**
