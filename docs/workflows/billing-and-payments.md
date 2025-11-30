@@ -29,14 +29,14 @@ Navigate to billing in three ways:
 Your subscription dashboard shows:
 
 **Plan Information:**
-- Current plan name (Starter/Growth/Professional/Franchise)
-- Monthly/Annual pricing
-- Next billing date
-- Payment method on file
-- Auto-renewal status
+- **Current Status:** Active
+- **Display Count:** Total active displays
+- **Monthly/Annual pricing**
+- **Next billing date**
+- **Payment method on file**
 
 **Quick Actions:**
-- **Change Plan** - Upgrade or downgrade
+- **Add/Remove Displays**
 - **Switch Billing Cycle** - Monthly ↔ Annual
 - **Pause Subscription** - Temporary hold
 - **Cancel Subscription** - End service
@@ -73,7 +73,7 @@ Monitor your current usage against plan limits:
 5. Click **Add Card**
 
 **Add Bank Account (ACH):**
-*Available for Professional and Franchise plans only*
+*Available for accounts with 10+ displays*
 
 1. Click **Add Bank Account**
 2. Enter account details:
@@ -164,61 +164,36 @@ Access your complete billing history:
 - Payment date
 - Amount paid
 
-## Changing Your Plan
+## Changing Your Display Count
 
-### Upgrading Your Plan
+### Adding Displays
 
-**When to Upgrade:**
-- Reached quota limits
-- Need additional features
-- Business expansion
-- Seasonal increases
+**When to Add Displays:**
+- Opening new locations
+- Adding screens to existing stores
+- Reached storage limits (add displays to increase storage)
 
-**Upgrade Process:**
+**Process:**
 
-1. Go to **Settings** → **Billing**
-2. Click **Change Plan**
-3. Select new plan (Growth/Professional/Franchise)
-4. Review changes:
-   - New features unlocked
-   - Additional quotas
-   - Price difference
-5. Review pro-rated charge
-6. Confirm upgrade
+1. Go to **Displays** dashboard
+2. Click **Add Display**
+3. Connect your new screen
+4. **Billing updates automatically:**
+   - Pro-rated charge for remainder of month
+   - Volume discounts apply automatically if you cross a tier threshold
+   - New features unlock automatically (e.g., 3+, 5+, 10+ displays)
 
-**Immediate Changes:**
-- New quotas apply instantly
-- Features unlock immediately
-- Pro-rated charge on next bill
-- Confirmation email sent
+### Removing Displays
 
-### Downgrading Your Plan
+**Before Removing:**
 
-**Before Downgrading:**
+Check that you're within storage limits for your new display count (2GB per remaining display).
 
-Check that you're within lower plan limits:
-- Displays active
-- Storage used
-- Users enabled
-- Stores configured
+**Process:**
 
-**Downgrade Process:**
-
-1. Reduce usage below new plan limits:
-   - Deactivate extra displays
-   - Delete unused content
-   - Remove team members
-   - Archive stores
-2. Click **Change Plan**
-3. Select lower tier
-4. Confirm you meet requirements
-5. Review credit amount
-6. Process downgrade
-
-**Timing:**
-- Downgrades effective at next billing cycle
-- Current features remain until then
-- Account credit applied to next bill
+1. Deactivate display in dashboard
+2. Billing updates immediately
+3. Account credit applied for unused days
 
 ### Plan Comparison
 

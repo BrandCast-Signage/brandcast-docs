@@ -52,7 +52,7 @@ Unlike traditional digital signage that locks you into one content source, Brand
 
 ---
 
-### Canva Import (Premium Feature)
+### Canva Import (Standard Feature)
 
 **Best For:** Professional marketing graphics, branded content, design-heavy displays
 
@@ -76,7 +76,7 @@ Unlike traditional digital signage that locks you into one content source, Brand
 - ✅ High-quality PNG export
 - ✅ Design at exact display resolution
 
-**Tier Availability:** Premium, Professional, Enterprise
+**Availability:** Included in all accounts
 
 **Setup:** [Canva Import Guide](../features/content-import.md#canva-import)
 

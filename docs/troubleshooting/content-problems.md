@@ -342,7 +342,7 @@ For each missing content area:
 #### 2. File Size and Length
 
 **Video Too Large:**
-- Maximum: 500 MB (Professional/Enterprise: 2 GB)
+- Maximum: 2 GB
 - Compress video to reduce size
 - Keep videos under 2 minutes for best performance
 
@@ -579,7 +579,7 @@ For each missing content area:
 #### Step 5: Content Filters
 
 **Filters Excluding Content:**
-- If using include/exclude filters (Professional/Enterprise)
+- If using include/exclude filters (Accounts with 5+ displays)
 - Filters may be excluding all content
 - Review filter rules
 - Adjust or remove filters

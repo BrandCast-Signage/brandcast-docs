@@ -157,11 +157,11 @@ Perform actions on multiple items:
 
 ### Storage Limits
 
-Your storage limit depends on your plan:
+Your storage limit scales with your display count:
 
-- **Starter**: 1 GB
-- **Professional**: 10 GB
-- **Enterprise**: 100 GB or custom
+- **Included:** 2GB per active display
+- **Example:** 10 displays = 20GB total storage
+- **Overage:** $1/GB per month for additional storage
 
 View your current usage: **Settings** → **Billing** → **Storage Usage**
 
@@ -172,7 +172,7 @@ If you're approaching your limit:
 1. **Delete unused media**: Review and remove old content
 2. **Compress images**: Use tools like TinyPNG before uploading
 3. **Optimize videos**: Convert to web-optimized MP4 format
-4. **Upgrade plan**: Contact sales for more storage
+4. **Add more displays**: Each new display adds 2GB to your pool
 
 ## Media Performance Tips
 

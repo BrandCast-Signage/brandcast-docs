@@ -23,6 +23,7 @@ const sidebars: SidebarsConfig = {
         'features/content-library',
         'features/media-library',
         'features/integrations',
+        'features/store-library',
       ],
     },
     {
@@ -50,10 +51,10 @@ const sidebars: SidebarsConfig = {
         'integrations/cozi-calendar',
         'integrations/stock-market',
         'integrations/weather',
-        'integrations/daily-inspiration',
-        'integrations/social-media-embeds',
+
+
         'integrations/rss-feeds',
-        'integrations/slideshow-integration',
+
         'integrations/zoomshift',
       ],
     },
