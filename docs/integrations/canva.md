@@ -8,12 +8,15 @@ Import your Canva designs directly into your BrandCast Media Library.
 
 ## Overview
 
-The Canva integration streamlines the process of getting your marketing materials onto your screens. Instead of downloading files and re-uploading them, you can browse your Canva projects from within BrandCast and import them as high-quality assets.
+Canva integration allows BrandCast/FamilyCast users to import professional designs directly from their Canva account to display on digital signage.
 
 **Key Features:**
-- **Direct Import:** Fetch designs without leaving the dashboard.
-- **High Quality:** Imports designs as optimized PNGs for digital signage.
-- **Library Integration:** Imported assets live in your Media Library, ready for any layout.
+- OAuth 2.0 authentication with PKCE for secure access
+- Browse and preview user-owned Canva designs
+- One-click import to store library
+- Automatic duplicate detection (won't re-import same design)
+- Supports PNG export of designs
+- Full integration with Library system
 
 **Important Note:** This is a **Library Import** integration. It fetches a snapshot of your design at the time of import. It does **not** create a live link. If you change the design in Canva, you must re-import it to update the screen.
 

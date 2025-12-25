@@ -5,123 +5,56 @@ title: Quick Start Guide
 
 # Quick Start Guide
 
-Get your first BrandCast display up and running in under 5 minutes.
+Get your first BrandCast display live in under 5 minutes. This guide covers the "Happy Path"—the fastest way to get content from your laptop to your screen.
 
 ## Prerequisites
+*   A **BrandCast Account** (Log in at [app.brandcast.app](https://app.brandcast.app)).
+*   A **Screen** (TV, Tablet, or Monitor) connected to the internet.
+*   One **Image or Video** file to display.
 
-- A BrandCast account
-- A device to use as a display (tablet, TV, or computer)
-- Internet connection
+## Step 1: Pair Your Screen
+BrandCast uses a "Code Pairing" system. The screen generates a code, and you enter it into your dashboard.
 
-## Steps
+1.  **On your TV/Screen:**
+    *   Open the BrandCast App (or browser).
+    *   Wait for the **Pairing Code** to appear (e.g., `BC-8X92`).
+2.  **On your Laptop (Dashboard):**
+    *   Navigate to **Displays** > **Pair New Display**.
+    *   **Pairing Code:** Enter the code shown on your TV.
+    *   **Display Name:** Give it a name (e.g., "Lobby TV").
+    *   Click **Pair Display**.
 
-### 1. Create Your Account
+:::success Success
+Your TV should instantly update to show a "Ready" or "Default" screen. It is now connected to your account.
+:::
 
-1. Visit [brandcast.app](https://brandcast.app)
-2. Click **Sign Up** in the top right corner
-3. Enter your email, name, and password
-4. Verify your email address
-5. Complete your account profile
+## Step 2: Use the Layout Wizard (Fastest Way)
+The fastest way to get content on screen is using the **Layout Wizard**. It handles uploading, layout creation, and assignment in one flow.
 
-Your account includes a **free 14-day trial** with full access to all features.
+1.  Navigate to **Layouts** in the sidebar.
+2.  Click the **+ Add Layout** button.
+3.  **The Wizard** will launch automatically.
+4.  **Upload Content:**
+    *   Select **Upload File**.
+    *   Choose your image or video.
+    *   *Alternative:* You can also select "Google Slides" here if you have a presentation ready.
+5.  **Review:** The Wizard will automatically create a "Full Screen" layout for your content.
+6.  Click **Save & Finish**.
 
-### 2. Create Your First Store
+## Step 3: Publish to Your Screen
+Now that you have a Layout, send it to your paired screen.
 
-After logging in, you'll be prompted to create your first store:
+1.  Navigate to **Displays**.
+2.  Click on the display you paired in Step 1.
+3.  Find the **Active Layout** section.
+4.  Select your new Layout from the dropdown.
+5.  Click **Update**.
 
-1. Enter your store name (e.g., "Main Location" or "Downtown Store")
-2. Add store details (address, timezone, contact info)
-3. Click **Create Store**
-
-**Tip**: If you have multiple locations, you can add more stores later from the Stores page.
-
-### 3. Create Your First Display
-
-Displays are the screens that show your content:
-
-1. Click **Displays** in the navigation menu
-2. Click **Create Display**
-3. Choose a display type:
-   - **Store Front** - Customer-facing displays (lobby, entrance, checkout)
-   - **Break Room** - Employee-facing displays (schedule, announcements)
-4. Enter a name (e.g., "Front Counter Display")
-5. Enter the location (e.g., "Checkout Counter")
-6. Click **Create**
-
-You'll receive a **registration code** to connect your physical display device.
-
-### 4. Connect Your Display Device
-
-On your display device (tablet, TV, or computer):
-
-1. Open a web browser
-2. Navigate to **display.brandcast.app**
-3. Enter the registration code from step 3
-4. Click **Register Device**
-
-Your display is now connected and will show a default layout.
-
-### 5. Upload Your First Content
-
-Add images or videos to your content library:
-
-1. Click **Library** in the navigation menu
-2. Click **Upload Media**
-3. Select images or videos from your computer
-4. Add tags to organize your content (optional)
-5. Click **Upload**
-
-**Supported formats**:
-- Images: JPG, PNG, GIF
-- Videos: MP4, MOV, AVI (max 100MB)
-
-### 6. Create a Layout
-
-Layouts control how content appears on your display:
-
-1. Click **Layouts** in the navigation menu
-2. Click **Create Layout** or choose a template
-3. Add content areas:
-   - Drag and resize areas on the canvas
-   - Assign content sources (media, integrations, etc.)
-4. Name your layout
-5. Click **Save**
-
-### 7. Assign Layout to Display
-
-Connect your layout to your display:
-
-1. Go to **Displays**
-2. Click on your display
-3. Under **Active Layout**, select the layout you created
-4. Click **Update**
-
-Your display will immediately show the new layout!
-
-### 8. Optional: Add Integrations
-
-Enhance your display with dynamic content:
-
-- **Google Slides** - Slideshow presentations
-- **RSS Feeds** - News, announcements, social media
-- **Calendar** - Events and schedules
-- **Weather** - Local weather information
-- **Stock Market** - Real-time stock prices
-
-See [Integrations](../features/integrations.md) for setup instructions.
+**Look at your TV!** Within 10-30 seconds, your content will appear.
 
 ## Next Steps
+Now that you have the basics, try these advanced features:
 
-Now that you have your first display running, explore these features:
-
-- **[Setup Checklist](./setup-checklist.md)** - Complete setup guide for production use
-- **[Display Setup](../workflows/display-setup.md)** - Advanced display configuration options
-- **[Content Library](../features/content-library.md)** - Organize and manage your media
-- **[Layouts](../features/layouts.md)** - Design custom layouts for your brand
-- **[User Management](../workflows/user-management.md)** - Add team members and manage access
-
-## Need Help?
-
-- 📧 Email: support@brandcast.app
-- 💬 Live Chat: Available in your dashboard
-- 📚 Knowledge Base: [help.brandcast.app](https://help.brandcast.app)
+*   **[Playlists](../workflows/playlists.md):** Schedule different layouts to rotate (e.g., Morning Menu vs. Lunch Menu).
+*   **[Integrations](../features/integrations.md):** Add live Weather, Clocks, or Instagram feeds.
+*   **[Team Access](../workflows/user-management.md):** Invite your marketing team to manage content.

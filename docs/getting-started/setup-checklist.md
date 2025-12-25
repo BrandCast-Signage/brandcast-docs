@@ -141,13 +141,13 @@ Complete this checklist to ensure your BrandCast system is fully configured and 
 
 ### ✅ Register Devices
 For each physical display:
-- [ ] Create display in BrandCast dashboard
-- [ ] Note registration code
-- [ ] Navigate to display.brandcast.app on device
-- [ ] Enter registration code
-- [ ] Verify successful connection
-- [ ] Assign initial layout
-- [ ] Test display shows content correctly
+- [ ] Open BrandCast App (or navigate to display.brandcast.app) on device
+- [ ] Note the Pairing Code displayed on screen
+- [ ] Log in to BrandCast Dashboard on your computer
+- [ ] Navigate to **Displays** > **Pair New Display**
+- [ ] Enter the Pairing Code and Display Name
+- [ ] Click **Pair Display**
+- [ ] Verify the display updates with content
 
 ### ✅ Display Configuration
 - [ ] Set display names (descriptive and location-based)

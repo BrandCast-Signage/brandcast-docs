@@ -1,38 +1,44 @@
-# Hardware Setup Guides
+---
+title: Hardware Overview
+slug: /hardware
+---
 
-BrandCast works with a wide variety of devices, from affordable Fire Tablets to professional-grade iPads and computers. This section provides step-by-step setup guides for each supported platform.
+# Hardware Strategy
 
-## Bring Your Own Device (BYOD)
+BrandCast is designed to be flexible. We offer a **Managed Solution** for those who want a "plug-and-play" experience, and a **BYOD (Bring Your Own Device)** path for those who want to use existing hardware.
 
-One of BrandCast's biggest advantages is **BYOD support**—you can use devices you already own instead of buying expensive proprietary hardware. This can save you **40-60% on hardware costs** compared to traditional digital signage solutions.
+## 1. Managed Android (Recommended)
+This is the "Gold Standard" for enterprise reliability.
+*   **What is it?** A dedicated Android Tablet or HDMI Stick purchased directly from BrandCast.
+*   **Why use it?**
+    *   **Zero Setup:** Ships pre-paired to your account.
+    *   **Remote Management:** We can remotely reboot, update, and troubleshoot the device.
+    *   **Kiosk Mode:** The app is locked to the screen; no one can exit it.
+    *   **Warranty:** Includes a 12-month replacement warranty.
 
-### Supported Devices
+## 2. BYOD Android
+Turn any modern Android device into a digital sign.
+*   **Supported Devices:** Any tablet, TV, or media player running **Android 10+**.
+*   **App Installation:** Download the BrandCast Player from the Google Play Store (or sideload our APK).
+*   **Trade-offs:** You are responsible for OS updates, device security, and keeping the app running (Kiosk Mode requires manual configuration).
 
-- **[Amazon Fire Tablets](./fire-tablet-setup.md)** - Best value for small displays ($80+)
-- **[Apple iPads](./ipad-setup.md)** - Premium quality for customer-facing signage ($250+)
-- **[Android Tablets](./android-tablet-setup.md)** - Flexible options across price points ($100-400)
-- **[Raspberry Pi](./raspberry-pi-byod-setup.md)** - For customers who already own Pi hardware ($35+)
-- **[Computers](./computer-tv-hdmi-setup.md)** - Windows, Mac, or Linux for back-office displays
+## 3. Chrome / PWA (Web Player)
+The universal fallback for any screen with a browser.
+*   **How to access:** Navigate to `player.brandcast.app` on *any* modern browser (Chrome, Edge, Safari).
+*   **Use Cases:**
+    *   **Laptops:** Quickly test a layout on your desk.
+    *   **Smart TVs:** Use the TV's built-in web browser (Samsung Tizen, LG WebOS).
+    *   **Desktops:** Turn a spare PC into a dashboard.
+*   **Limitations:** Browsers may show address bars, go to sleep, or crash after long periods. It lacks the native "Reboot" capabilities of the Android app.
 
-### BYOD vs. Complete Kits
+---
 
-**Use BYOD When:**
-- ✅ You have existing tablets or computers gathering dust
-- ✅ You want to minimize upfront hardware costs
-- ✅ You're comfortable with basic tech setup (15-30 minutes per device)
-- ✅ You're starting small and want to test before scaling
+## Comparison Table
 
-**Use Complete Kits When:**
-- ✅ You want plug-and-play setup (5 minutes)
-- ✅ You need warranty support on all hardware
-- ✅ You're deploying to multiple locations simultaneously
-- ✅ You prefer vendor-managed hardware
-
-## Need Help?
-
-If you get stuck during setup:
-1. Check the **Troubleshooting** section in each guide
-2. Visit our [Support page](https://brandcast.app/support) for direct help
-3. Email **support@brandcast.app** (4-hour response time)
-
-**Business Hours:** Monday-Friday, 9am-5pm ET
+| Feature | Managed Android | BYOD Android | Chrome / PWA |
+| :--- | :---: | :---: | :---: |
+| **Setup Time** | Instant | 15-30 Mins | 1 Min |
+| **Reliability** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ |
+| **Remote Reboot** | ✅ Yes | ❌ No | ❌ No |
+| **Kiosk Mode** | ✅ Pre-configured | ⚠️ Manual Config | ❌ Manual Config |
+| **Offline Support** | ✅ Full | ✅ Full | ⚠️ Limited |

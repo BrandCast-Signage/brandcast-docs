@@ -8,12 +8,15 @@ Display your Google Docs documents directly on BrandCast displays.
 
 ## Overview
 
-The Google Docs integration lets you treat a document as a live signage asset. This is ideal for simple text announcements, daily menus, or policy updates that need to be edited frequently by staff who are already comfortable with Google Docs.
+Google Docs integration allows BrandCast/FamilyCast users to display Google Docs documents directly on their digital signage displays. Documents are rendered as formatted, scrollable content with automatic styling and refresh.
 
 **Key Features:**
-- **Live Text:** Edits in Google Docs appear on screen automatically.
-- **Formatting:** Supports basic formatting (bold, headers, lists) from the doc.
-- **Scrollable:** Automatically scrolls long documents so all content is seen.
+- Display any Google Docs document from your Google Drive
+- Automatic document rendering via Google Docs API
+- Real-time document updates reflected on displays
+- Flexible authentication (OAuth, service account, or Application Default Credentials)
+- Optional title display
+- Responsive text rendering for various display sizes
 
 ## 1. Connect the Integration
 

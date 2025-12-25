@@ -8,12 +8,16 @@ Display data from Google Sheets as formatted tables or charts.
 
 ## Overview
 
-The Google Sheets integration turns your spreadsheets into live data displays. This is perfect for sales leaderboards, inventory lists, or shift schedules that need to be updated in real-time.
+Google Sheets integration allows BrandCast/FamilyCast users to display Google Sheets spreadsheet data directly on their digital signage displays. Sheets can be displayed as schedules, inventory lists, or custom data tables with automatic updates.
 
 **Key Features:**
-- **Live Data:** Updates on screen whenever the spreadsheet is saved.
-- **Targeted Data:** Display a specific sheet or a named range (e.g., A1:D10).
-- **Formatting:** Resembles the look of your spreadsheet (basic cell formatting).
+- Display any Google Sheets spreadsheet from your Google Drive
+- Two specialized display modes: Schedule and Inventory
+- Automatic data fetching via Google Sheets API
+- Real-time spreadsheet updates reflected on displays
+- Flexible authentication (OAuth, service account, or Application Default Credentials)
+- Sheet-specific rendering (select individual sheets from multi-sheet workbooks)
+- Responsive table rendering for various display sizes
 
 ## 1. Connect the Integration
 

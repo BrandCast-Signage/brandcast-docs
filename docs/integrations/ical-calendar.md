@@ -8,12 +8,18 @@ Connect and display any calendar that supports the iCal format (Google, Outlook,
 
 ## Overview
 
-The iCal integration is the universal standard for calendar displays. By creating **Calendar Content Sources**, you can combine multiple calendar feeds (e.g., "Company Holidays" + "Room A Schedule") into a single, cohesive display.
+The iCal Calendar integration provides universal calendar display support for any service that publishes iCalendar (.ics) feeds. This includes Google Calendar, Apple iCloud Calendar, Microsoft Outlook, and hundreds of other calendar services that follow the standard iCalendar format (RFC 5545).
 
 **Key Features:**
-- **Universal:** Works with almost any calendar provider.
-- **Multi-Feed:** Merge multiple calendars into one view.
-- **Auto-Sync:** Updates automatically when your calendar changes.
+- Universal iCal/.ics format support
+- Compatible with all major calendar services
+- No authentication required (uses public feed URLs)
+- Multiple calendar feeds per display
+- All-day and timed event support
+- Recurring event support
+- Multiple display modes (day/week/month/agenda)
+- Timezone-aware event display
+- Color-coded events by feed
 
 ## 1. Connect the Integration
 

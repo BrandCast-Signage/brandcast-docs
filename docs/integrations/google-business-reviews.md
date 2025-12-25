@@ -8,7 +8,7 @@ Display 5-star reviews and customer testimonials from your Google Business Profi
 
 ## Overview
 
-The Reviews integration pulls verified feedback directly from Google. By creating **Reviews Content Sources**, you can filter for your best ratings and display them to build trust with visitors.
+Google Business Reviews integration allows BrandCast users to display customer reviews from their Google Business Profile on digital signage displays. This is perfect for retail businesses, restaurants, service providers, and any business with a Google Business Profile looking to showcase positive customer feedback.
 
 **Key Features:**
 - **Auto-Sync:** New reviews are fetched automatically (every 6 hours).

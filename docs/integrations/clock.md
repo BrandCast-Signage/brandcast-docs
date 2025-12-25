@@ -9,7 +9,17 @@ Display the current time for any timezone.
 **Type:** Native Widget (No external account required)
 
 ## Overview
-The Clock widget displays the current time. BrandCast automatically creates a default clock for your store's timezone, but you can create additional clocks for other timezones (e.g., "London Office", "Tokyo HQ").
+
+The Clock integration displays current time and date on BrandCast and FamilyCast displays with customizable formats and timezone support. Perfect for office lobbies, retail stores, and family command centers.
+
+**Key Features:**
+- Real-time clock updates (every second)
+- 12-hour and 24-hour format support
+- Optional seconds display
+- Date display with day of week
+- Timezone support for multi-location deployments
+- Configurable display formats (time-only, date-only, datetime)
+- Responsive text sizing for any display geometry
 
 ## Configuration
 *   **Timezone:** Select any global timezone.

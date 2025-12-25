@@ -8,7 +8,7 @@ Display live stock prices, market indices, and financial charts on your BrandCas
 
 ## Overview
 
-The Stock Market integration provides real-time (or delayed) financial data. By creating **Stock Content Sources**, you can build customized tickers or charts for specific sectors (e.g., "Tech Stocks", "Competitor Watchlist") and reuse them across your network.
+Stock Market integration allows BrandCast users to display real-time stock quotes, tickers, and market data on digital signage displays. Perfect for financial services, investment firms, corporate offices, and any business wanting to show market performance or portfolio tracking.
 
 **Key Features:**
 - **Market Data:** Support for major indices (Dow, Nasdaq, S&P 500) and individual equities.

@@ -4,52 +4,46 @@ title: Google Slides
 
 # Google Slides Integration
 
-Display your Google Slides presentations directly on BrandCast displays.
+Turn any Google Slides presentation into a digital sign. This is the easiest way to manage daily menus, announcements, and school updates.
 
-## Overview
+## How it Works
+BrandCast connects to your Google Account. When you update a slide deck in Google Drive, your screens update automatically (within ~15 minutes).
 
-The Google Slides integration allows you to connect your Google account and use your presentations as dynamic digital signage. By creating **Slides Content Sources**, you can configure specific presentations (e.g., "Lunch Menu", "Corporate Overview") and deploy them to any screen.
+## Setup Guide
 
-**Key Features:**
-- **Auto-Sync:** Changes made in Google Slides are automatically reflected on your displays.
-- **Reusable Sources:** Connect a presentation once, use it in multiple layouts.
-- **Flexible Playback:** Customize slide duration and transition effects per source.
+### 1. Connect Your Account
+1.  Navigate to **Integrations** in the sidebar.
+2.  Select **Google Slides**.
+3.  Click **Connect Account** and sign in with your Google credentials.
+    *   *Note:* You only need to do this once.
 
-## 1. Connect the Integration
+### 2. Create a Content Source
+Think of a Content Source as a specific "Channel." You might have one for "Morning Menu" and another for "Staff News."
 
-1.  Navigate to **Integrations** > **Google Slides**.
-2.  Click **Connect Account**.
-3.  Authorize BrandCast to access your Google Slides presentations.
+1.  Click **Create New Source**.
+2.  **Source Name:** Give it a clear name (e.g., "Lunch Menu").
+3.  **Select Presentation:** A file picker will appear. Choose your Google Slides file.
+4.  **Refresh Interval:** How often BrandCast checks for edits. (Default: 15 mins).
+5.  **Slide Duration:** How long to show each slide (Default: 10 seconds).
+6.  Click **Save**.
 
-## 2. Create a Content Source
+### 3. Add to a Layout
+Now that you have a source, put it on the screen.
 
-A **Content Source** links a specific Google Slides presentation to BrandCast.
+1.  Go to **Layouts** and edit your target layout.
+2.  Add a **Zone** (or double-click an existing one).
+3.  Select **Integration** > **Google Slides**.
+4.  Choose the source you created in Step 2.
+5.  **Save** and **Publish**.
 
-1.  Navigate to **Integrations** > **Google Slides**.
-2.  Click **Create New Source**.
-3.  **Select Presentation:** Browse your Google Drive and select the desired file.
-4.  **Name:** Give the source a descriptive name (e.g., "Q3 Sales Deck").
+## Pro Tips
 
-**Why create Content Sources?**
-You might have a "Morning Announcements" presentation and an "Afternoon Specials" presentation. Creating separate Content Sources for each allows you to schedule them independently or rotate them in a playlist.
+### Aspect Ratio Matters
+*   **Standard TV:** Set your Google Slides page setup to **Widescreen 16:9** (File > Page Setup).
+*   **Portrait TV:** Set page setup to **Custom > 1080 x 1920 pixels**.
 
-## 3. Content Source Configuration (Styles)
+### "Offline" Mode
+BrandCast caches your slides. If the internet goes down, your screens will keep playing the last version of the presentation until connection is restored.
 
-Customize how this presentation plays back.
-
-*   **Slide Duration:** How long each slide stays on screen (default: 10 seconds).
-*   **Transitions:** Choose effects like Fade, Slide, or None.
-*   **Auto-Loop:** Restart presentation when finished.
-*   **Refresh Interval:** How often to check Google Drive for updates (default: 15 minutes).
-
-## 4. Add to Layout
-
-1.  Open the **Layout Editor**.
-2.  Add a **Google Slides** area to the canvas.
-3.  Select your saved source (e.g., "Q3 Sales Deck").
-4.  **Save** the layout.
-
-## Troubleshooting
-
-*   **Slides Not Updating:** Check the "Refresh Interval" in your Content Source settings. You can also force a manual refresh.
-*   **Blank Screen:** Ensure the BrandCast service account has permission to view the file if you are using a shared drive link (though OAuth usually handles this).
+### Transitions
+Animations *inside* a slide (like bullet points fading in) **do not** work on digital signage. BrandCast displays the final state of each slide. Use multiple slides to create build-up effects.

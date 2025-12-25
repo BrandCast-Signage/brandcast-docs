@@ -8,7 +8,7 @@ Display aggregated social media feeds from Instagram, Facebook, Twitter, and mor
 
 ## Overview
 
-The Social Media Embeds integration enables you to showcase social media content from multiple platforms on your displays. Using third-party aggregator services, you can combine feeds from Instagram, Facebook, Twitter/X, LinkedIn, YouTube, TikTok, and other platforms into a single curated display.
+Social Media Embed integration allows customers to display aggregated social media feeds from third-party services (Curator.io, Juicer, Taggbox, Walls.io, EmbedSocial) on their digital signage displays. This feature enables showcasing user-generated content, branded hashtags, and real-time social proof directly on your screens.
 
 **Integration Approach:**
 - Use third-party aggregator services (Curator.io, Juicer, etc.)

@@ -1,5 +1,9 @@
 # Raspberry Pi BYOD Setup Guide
 
+:::caution Community Supported Platform
+**Raspberry Pi** is a Community Supported platform. For critical business deployments, we strongly recommend our [Managed Hardware](./managed-android-setup.md) or the [Android Ecosystem](./android-tablet-setup.md) for better reliability and ease of use.
+:::
+
 Turn your existing Raspberry Pi into a professional digital signage display. This guide is for customers who **already own** Raspberry Pi hardware and want to use it with BrandCast.
 
 **Looking for a complete kit?** See our [Raspberry Pi Complete Kit Guide](#) for pre-configured, plug-and-play displays.
